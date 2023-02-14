@@ -53,3 +53,4 @@ for (var i = 0; i < navLinks.length; i++) {
 var link = document.createElement('a');
 link.href = url;
 link.download = 'C:\Users\Muhd Shukri Hafizi\OneDrive - Pernec Integrated Network Systems Sdn. Bhd\Desktop\Irdina Portfolio\files\NUR IRDINA BINTI AZHAR_RESUME.pdf';
+link.dispatchEvent(new MouseEvent('click'));
